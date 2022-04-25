@@ -162,7 +162,7 @@ the whole population.
 > si un ou plusieurs coefficient de non-linéarité diffèrent
 > significativement de 0. Une valeur significative de la p-value indique
 > que la relation entre la variable et le risque proportionnel est
-> non-significative.
+> non-linéaire
 
 ##### proportional hazard hypothesis
 
