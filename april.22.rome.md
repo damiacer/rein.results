@@ -352,8 +352,8 @@ missing entry. [^4]*
 
 **data is MCAR: `MCAR test p-value=0.263`** [^5]
 
-> la méthode de pooling ne semble pas avoir été implémentée en mice pour
-> le coxph pour les imputations ‘multiparameter’ ( *Reiter 2007* ).
+> la méthode de pooling ne semble pas avoir été implémentée dans `mice`
+> pour le coxph pour les imputations ‘multiparameter’ ( *Reiter 2007* ).
 > D’autres tests sont nécessaires. Néanmoins l’analyse est affecté
 > négativement par l’absence du pooling et les résultats ne sont pas
 > cohérents entre les différentes bases imputées. Une solution
@@ -497,7 +497,7 @@ formula and results
     ps(age)15      11.3156    0.08837     0.7248    176.6613
     ps(age)16      9.3766     0.10665     0.3517    249.9976
 
-##### proportional hazard hypothesis of model 1.2
+#### proportional hazard hypothesis of model 1.2
 
                             chisq     df     p
     cardiovasc              0.35181   1.00   0.553
