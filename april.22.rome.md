@@ -352,8 +352,6 @@ missing entry. [^4]*
 
 **data is MCAR: `MCAR test p-value=0.263`** [^5]
 
-> <div style="text-align: justify">
->
 > la méthode de pooling ne semble pas avoir été implémentée en mice pour
 > le coxph pour les imputations ‘multiparameter’ ( *Reiter 2007* ).
 > D’autres tests sont nécessaires. Néanmoins l’analyse est affecté
@@ -362,18 +360,16 @@ missing entry. [^4]*
 > alternative est fournie dans le package `Hmisc` de Frank Harrel. Cette
 > solution permet de pooler les différents datasets et d’obtenir une
 > estimation de la survie par la fonction `fit.multiple.impute`, même
-> des variables dont un smooth spline est calculé. De plus, pas la
+> des variables dont un smooth spline est calculé. De plus, par la
 > fonction `transcan`, l’imputation multiple peut être limitée à
 > quelques variables. Néanmois il présente différents *downsides* : 1.
 > pas de méthode d’estimation graphique de la survie ; 2. pas de méthode
 > d’évaluation de l’hypothèse de risques proportionnels. On imagine le
 > risque qu’ils le soient ; 3. moins précis que `mice` : il ne calcule
-> qu’une approximation (moins fiable que la fonction `aregImpute`,
-> malheureusement pas implémentée pour la survie). `mice` permettrait
-> d’obtenir une meilleure estimation de la distribution bayesienne a
-> posteriori
->
-> </div>
+> qu’une approximation (aussi moins fiable que la fonction `aregImpute`
+> du même package, malheureusement pas implémentée pour la survie).
+> `mice` permettrait d’obtenir une meilleure estimation de la
+> distribution bayesienne a posteriori
 
 formula and results
 
